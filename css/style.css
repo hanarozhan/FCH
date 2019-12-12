@@ -14,10 +14,8 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 4.5em;
     color: rgb(94, 82, 82);
-}
+    text-align: center;
 
-#header1 {
-        text-align: center;
 }
 
 nav {
@@ -25,9 +23,11 @@ nav {
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    line-height: 6;
+
 }
 
 img {
@@ -81,18 +81,45 @@ ul {
 }
 
 li {
-    margin: 0 20px;
+    margin: 0 22px;
 }
 
 #options1 {
     text-align: left
 }
 
+img#firstset {
+
+        height: auto;
+        width: 51%;
+        
+      }
+}
 
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 
+ul#details{
 
-
-
-
+    margin: 0 110px;
+    line-height: 1.4;
+}
