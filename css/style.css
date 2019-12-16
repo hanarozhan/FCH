@@ -57,7 +57,7 @@ li {
     background-color: rgb(65,75,86);
     padding: 90px;
     margin-top: 100px;
-    border-top: 10px solid currentColor;
+    border-top: 10px solid darkolivegreen;
 }
 
 .footer-nav {
@@ -80,14 +80,18 @@ li {
     margin-bottom: 20px;
 }
 
+#row {
+    color: rgba(250,250,250,1);
+}
+
 h3 {
-    color: rgba(250,250,250,.75);
+    color:rgba(250,250,250,1);
     text-align: center;
     text-transform: uppercase;
 } 
 
 .icon {
-    padding-left: 16em;
+    padding-left: 8em;
 }
 
 .footer-text {
