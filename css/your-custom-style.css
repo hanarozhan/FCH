@@ -1,0 +1,33 @@
+body {
+    background-image: url(../images/background.jpg);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: left;
+    color: wheat;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    color: wheat;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.container {
+    padding-left: 18em;
+}
+
+.footer-text {
+    font-size: 1em;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
