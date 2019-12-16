@@ -1,0 +1,35 @@
+header {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.0em;
+    color: rgb(65,75,86);
+    text-align: center;
+}
+
+body {
+    font-size: 1.7em;
+    padding-bottom: 10.0em;
+}
+
+.form-group {
+    padding-left: 5.0em;
+    padding-right: 12.0em;
+}
+
+#emailHelp {
+    font-size: 0.5em;
+}
+
+.dropdown {
+    padding-left: 5.0em;
+}
+
+.footer-text {
+    font-size: 0.7em;
+    font-style: normal;
+    text-align: center;
+    color: black;
+}
