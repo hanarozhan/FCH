@@ -20,8 +20,24 @@ h2 {
      line-height: normal;
 }
 
-nav {
-    color: black;
+.container {
+        text-align: center;
+}
+
+.container ul {
+        display: inline-block;
+        margin: 10px 0;
+        padding: 2px;
+}
+
+.container li {
+        display: inline-block;
+}
+
+.container li a {
+        display: inline-block;
+        padding: 5px;
+        text-decoration: none;
 }
 
 img {
@@ -51,6 +67,11 @@ li {
   
 .row {
     display: flex;
+}
+
+.social-links {
+    text-align: center;
+    width: 100%;
 }
 
 .footer {
@@ -91,7 +112,7 @@ h3 {
 } 
 
 .icon {
-    padding-left: 8em;
+    display: inline-block;
 }
 
 .footer-text {
